@@ -5,9 +5,7 @@ for (let index = 0; index < 5; index++) {
     nota = parseFloat(prompt("Ingrese la nota " + (index+1) + ": "));
 
     while (!notaValida(nota)) {
-        
         nota = parseFloat(prompt("Nota inválida. Ingrese la nota nuevamente" + (index+1) + ": "));
-
     }
 
     promedio += nota;
