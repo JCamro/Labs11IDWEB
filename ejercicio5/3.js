@@ -1,11 +1,11 @@
 console.log("Bienvenido al programa, ingrese 10 numeros:");
 
-contadorPares=0;
-contadorImpares=0;
+let contadorPares=0;
+let contadorImpares=0;
 
 for (let index = 0; index < 10; index++) {
     
-    numero = parseInt(prompt(`Ingrese numero ${index + 1}: `));
+    let numero = parseInt(prompt(`Ingrese numero ${index + 1}: `));
 
     if(esPar(numero)) {
         contadorPares++;

@@ -1,4 +1,4 @@
-edad = parseFloat(prompt("Ingrese su edad:"));
+let edad = parseFloat(prompt("Ingrese su edad:"));
 
 if (edad < 12 && edad>=0) {
     console.log("Eres Niño");

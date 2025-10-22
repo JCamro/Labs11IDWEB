@@ -1,4 +1,4 @@
-promedio = 0;
+let promedio = 0;
 
 for (let index = 0; index < 5; index++) {
     
